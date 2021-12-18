@@ -1,3 +1,3 @@
 # arketlaguagecenter.github.io
 arketlaguagecenter
-arketlaguagecenter.github.io
+https://arketlaguagecenter.github.io/
