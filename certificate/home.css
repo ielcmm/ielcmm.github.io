@@ -1,0 +1,28 @@
+
+
+#text-box {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+
+body {
+  background-color: #2989cc;
+}
+
+.btn-channel{color:#ffffff;background-color:#515253;border-color:#000000;}
+.btn-channel{font-size: 20px;border-radius: 40px 40px 40px 0px;font-weight: normal;font-weight: bold;font-weight: 900;}
+.btn-channel{height: 50px;width: 300px;}
+.btn-channel{-webkit-text-stroke: 0.3px black; text-shadow: -1px -1px 0 #000;}
+
+let scrollHeight = Math.max(
+  document.body.scrollHeight, document.documentElement.scrollHeight,
+  document.body.offsetHeight, document.documentElement.offsetHeight,
+  document.body.clientHeight, document.documentElement.clientHeight
+);
+
+alert('Full document height, with scrolled out part: ' + scrollHeight);
