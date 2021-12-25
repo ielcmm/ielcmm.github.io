@@ -18,7 +18,7 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '17px Gadugi bold'
+	ctx.font = '19px Gadugi bold'
 	ctx.fillStyle = '#000000'
 
 //---NAME---//
@@ -30,9 +30,10 @@ function drawImage() {
         ctx.fillText(classInput.value, 380, 400)
 //---DATE---//
         ctx.fillText(dateInput.value, 360, 240)
+//---Phone---//
+        ctx.fillText(cidInput.value, 95, 273)
 }
-     ctx.fillText(cidInput.value, 360, 240)
-}
+   
 
 nameInput.addEventListener('input', function () {
 	drawImage()
